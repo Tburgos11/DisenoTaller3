@@ -11,6 +11,6 @@ package proyecto.disenotaller3;
 public class DisenoTaller3 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Prueba1");
     }
 }
