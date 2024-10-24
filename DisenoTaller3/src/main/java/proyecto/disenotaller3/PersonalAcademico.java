@@ -10,4 +10,19 @@ package proyecto.disenotaller3;
  */
 public class PersonalAcademico extends Usuario{
     
+    public PersonalAcademico(String usuario, String contrasena, String nombre, String apellido) {
+        super(usuario, contrasena, nombre, apellido);
+    }
+    
+    public void reportarerror(String email, String contenido){
+        
+    }
+    
+    public void solicitarAsesoramientoDelSistema(String email, String contenido){
+        
+    }
+    
+    public void comentarEnforo(Foro foro, String comentario){
+        
+    }
 }
