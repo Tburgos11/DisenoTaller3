@@ -13,10 +13,17 @@ import java.util.Date;
 public class Tarea extends ActividadSumativa{
     protected Date fechaDePublicacion;
 
-    public Tarea(String titulo, Date fechaDeEntrega, float puntajeMaximo, String contenido, float calificacion, String id) {
+    public Tarea(Date fechaDePublicacion, String titulo, Date fechaDeEntrega, float puntajeMaximo, String contenido, float calificacion, String id) {
         super(titulo, fechaDeEntrega, puntajeMaximo, contenido, calificacion, id);
+        this.fechaDePublicacion = fechaDePublicacion;
     }
 
-    
-    
+    public Date getFechaDePublicacion() {
+        return fechaDePublicacion;
+    }
+
+    public void setFechaDePublicacion(Date fechaDePublicacion) {
+        this.fechaDePublicacion = fechaDePublicacion;
+    }
+
 }

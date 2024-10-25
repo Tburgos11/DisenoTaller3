@@ -18,8 +18,13 @@ public class Evaluacion extends ActividadSumativa{
         this.limiteDeTiempo = limiteDeTiempo;
     }
 
-    
+    public int getLimiteDeTiempo() {
+        return limiteDeTiempo;
+    }
 
-    
+    public void setLimiteDeTiempo(int limiteDeTiempo) {
+        this.limiteDeTiempo = limiteDeTiempo;
+    }
+
     
 }
