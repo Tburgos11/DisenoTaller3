@@ -3,3 +3,4 @@ Diagrama de Secuencias del caso de uso 1, hecho por Génesis Michilena y Cecilia
 
 
 Diagrama de Secuencias del caso de uso 2, hecho por Thomas Burgos:
+![Diagrama en blanco](https://github.com/user-attachments/assets/07483fcc-fe6d-43e2-a944-0dddfc73550e)
