@@ -15,11 +15,11 @@ public class Curso {
     private String nombre;
     private boolean estadoDisponible;
     
-    List<Estudiante> estudiantesInscritos;
-    List<Estudiante> estudiantesEnEsperaDeInscripcion;
-    List<Profesor> cursosACargo;
-    List<ActividadSumativa> actividadesSumativas;
-    List<Foro> foros;
+    private List<Estudiante> estudiantesInscritos;
+    private List<Estudiante> estudiantesEnEsperaDeInscripcion;
+    private List<Profesor> cursosACargo;
+    private List<ActividadSumativa> actividadesSumativas;
+    private List<Foro> foros;
 
     public Curso(String id, String nombre, boolean estadoDisponible, List<Estudiante> estudiantesInscritos, List<Estudiante> estudiantesEnEsperaDeInscripcion, List<Profesor> cursosACargo, List<ActividadSumativa> actividadesSumativas, List<Foro> foros) {
         this.id = id;

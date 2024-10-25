@@ -10,6 +10,8 @@ package proyecto.disenotaller3;
  */
 public class Profesor extends PersonalAcademico{
     
+    private Curso cursosACargo;
+    
     public Profesor(String usuario, String contrasena, String nombre, String apellido) {
         super(usuario, contrasena, nombre, apellido);
     }

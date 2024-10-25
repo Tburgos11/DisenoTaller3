@@ -13,6 +13,8 @@ public class Usuario {
     protected String contrasena;
     protected String nombre;
     protected String apellido;
+    
+    protected Incidente numIncidentes;
 
     public Usuario(String usuario, String contrasena, String nombre, String apellido) {
         this.usuario = usuario;

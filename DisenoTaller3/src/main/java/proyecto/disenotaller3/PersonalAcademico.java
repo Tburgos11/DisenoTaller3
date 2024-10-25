@@ -10,6 +10,8 @@ package proyecto.disenotaller3;
  */
 public class PersonalAcademico extends Usuario{
     
+    protected Incidente numIncidentes;
+    
     public PersonalAcademico(String usuario, String contrasena, String nombre, String apellido) {
         super(usuario, contrasena, nombre, apellido);
     }
